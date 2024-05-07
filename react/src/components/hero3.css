@@ -1,0 +1,111 @@
+.hero3-header9 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url('https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDF8fHRlY2h8ZW58MHx8fHwxNzE1MDk4MzM1fDA&ixlib=rb-4.0.3&w=1500');
+}
+.hero3-container {
+  flex: 0 0 auto;
+  width: auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 674px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.hero3-content {
+  height: 333px;
+  display: flex;
+  justify-content: center;
+  background-color: #060606;
+}
+.hero3-max-width {
+  align-self: center;
+  align-items: center;
+}
+.hero3-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.hero3-column {
+  flex: 1;
+  width: auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.hero3-text {
+  color: #ffffff;
+  font-style: normal;
+  font-family: "Georgia";
+  font-weight: 600;
+}
+.hero3-column1 {
+  gap: var(--dl-space-space-twounits);
+  flex: 1;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.hero3-text1 {
+  color: #e9e1e1;
+  font-family: "Exo 2";
+}
+.hero3-actions {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+}
+.hero3-button {
+  background-color: #4c4846;
+}
+.hero3-text3 {
+  color: #f3f1ef;
+}
+.hero3-root-class-name {
+  background-color: #716b6b;
+}
+@media(max-width: 991px) {
+  .hero3-column {
+    width: 100%;
+  }
+  .hero3-column1 {
+    width: auto;
+  }
+}
+@media(max-width: 767px) {
+  .hero3-text {
+    text-align: center;
+  }
+  .hero3-text1 {
+    text-align: center;
+  }
+  .hero3-actions {
+    width: 100%;
+    justify-content: center;
+  }
+}
+@media(max-width: 479px) {
+  .hero3-actions {
+    flex-direction: column;
+  }
+  .hero3-button {
+    width: 100%;
+  }
+  .hero3-button1 {
+    width: 100%;
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+}

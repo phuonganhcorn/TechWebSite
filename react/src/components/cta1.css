@@ -1,0 +1,50 @@
+.cta1-container {
+  gap: var(--dl-space-space-threeunits);
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  flex-direction: column;
+}
+.cta1-max-width {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: column;
+}
+.cta1-content {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.cta1-heading1 {
+  text-align: center;
+}
+.cta1-content1 {
+  text-align: center;
+}
+.cta1-actions {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: flex-start;
+}
+.cta1-action1 {
+  text-align: center;
+}
+.cta1-action2 {
+  text-align: center;
+}
+@media(max-width: 479px) {
+  .cta1-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+  .cta1-button {
+    width: 100%;
+  }
+  .cta1-button1 {
+    width: 100%;
+  }
+}
